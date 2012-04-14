@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MixxxMIDIPreset schemaVersion="1" mixxxVersion="1.7.0+">
+	<info>
+		<name>American Audio VMS4</name>
+		<author>xorik</author>
+		<description>Alternative mapping for VMS4</description>
+	</info>
+	<controller id="American Audio VMS4">
+		
+	</controller>
+</MixxxMIDIPreset>
