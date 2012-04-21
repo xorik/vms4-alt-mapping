@@ -240,6 +240,81 @@
 				<status>0x90</status>
 				<midino>0x3c</midino>
 			</control>
+			<!-- quantize -->
+			<control>
+				<group>[Channel1]</group>
+				<key>quantize</key>
+				<status>0x90</status>
+				<midino>0x26</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>quantize</key>
+				<status>0x90</status>
+				<midino>0x48</midino>
+			</control>
+			<!-- loop in/out/reloop -->
+			<control>
+				<group>[Channel1]</group>
+				<key>loop_in</key>
+				<status>0x90</status>
+				<midino>0x1f</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>loop_out</key>
+				<status>0x90</status>
+				<midino>0x20</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>reloop_exit</key>
+				<status>0x90</status>
+				<midino>0x21</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>loop_in</key>
+				<status>0x90</status>
+				<midino>0x41</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>loop_out</key>
+				<status>0x90</status>
+				<midino>0x42</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>reloop_exit</key>
+				<status>0x90</status>
+				<midino>0x43</midino>
+			</control>
+			<!-- loop halve/double -->
+			<control>
+				<group>[Channel1]</group>
+				<key>loop_halve</key>
+				<status>0x91</status>
+				<midino>0x28</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>loop_double</key>
+				<status>0x91</status>
+				<midino>0x29</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>loop_halve</key>
+				<status>0x91</status>
+				<midino>0x4a</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>loop_double</key>
+				<status>0x91</status>
+				<midino>0x4b</midino>
+			</control>
 		</controls>
 	</controller>
 </MixxxMIDIPreset>
