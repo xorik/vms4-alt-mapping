@@ -80,6 +80,19 @@
 				<status>0xb0</status>
 				<midino>0x0e</midino>
 			</control>
+			<!-- rate -->
+			<control>
+				<group>[Channel1]</group>
+				<key>rate</key>
+				<status>0xe0</status>
+				<midino>0x00</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>rate</key>
+				<status>0xe1</status>
+				<midino>0x00</midino>
+			</control>
 		</controls>
 	</controller>
 </MixxxMIDIPreset>
