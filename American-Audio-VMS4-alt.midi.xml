@@ -152,8 +152,20 @@
 			</control>
 			<control>
 				<group>[Channel1]</group>
+				<key>hotcue_1_activate</key>
+				<status>0x80</status>
+				<midino>0x12</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
 				<key>hotcue_2_activate</key>
 				<status>0x90</status>
+				<midino>0x13</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>hotcue_2_activate</key>
+				<status>0x80</status>
 				<midino>0x13</midino>
 			</control>
 			<control>
@@ -164,8 +176,20 @@
 			</control>
 			<control>
 				<group>[Channel1]</group>
+				<key>hotcue_3_activate</key>
+				<status>0x80</status>
+				<midino>0x14</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
 				<key>hotcue_4_activate</key>
 				<status>0x90</status>
+				<midino>0x15</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>hotcue_4_activate</key>
+				<status>0x80</status>
 				<midino>0x15</midino>
 			</control>
 			<control>
@@ -200,8 +224,20 @@
 			</control>
 			<control>
 				<group>[Channel2]</group>
+				<key>hotcue_1_activate</key>
+				<status>0x80</status>
+				<midino>0x34</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
 				<key>hotcue_2_activate</key>
 				<status>0x90</status>
+				<midino>0x35</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>hotcue_2_activate</key>
+				<status>0x80</status>
 				<midino>0x35</midino>
 			</control>
 			<control>
@@ -212,8 +248,20 @@
 			</control>
 			<control>
 				<group>[Channel2]</group>
+				<key>hotcue_3_activate</key>
+				<status>0x80</status>
+				<midino>0x36</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
 				<key>hotcue_4_activate</key>
 				<status>0x90</status>
+				<midino>0x37</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>hotcue_4_activate</key>
+				<status>0x80</status>
 				<midino>0x37</midino>
 			</control>
 			<control>
