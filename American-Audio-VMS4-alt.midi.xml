@@ -93,6 +93,43 @@
 				<status>0xe1</status>
 				<midino>0x00</midino>
 			</control>
+			<!-- eq -->
+			<control>
+				<group>[Channel1]</group>
+				<key>filterHigh</key>
+				<status>0xb0</status>
+				<midino>0x06</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>filterMid</key>
+				<status>0xb0</status>
+				<midino>0x07</midino>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>filterLow</key>
+				<status>0xb0</status>
+				<midino>0x08</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>filterHigh</key>
+				<status>0xb0</status>
+				<midino>0x0b</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>filterMid</key>
+				<status>0xb0</status>
+				<midino>0x0c</midino>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>filterLow</key>
+				<status>0xb0</status>
+				<midino>0x0d</midino>
+			</control>
 		</controls>
 	</controller>
 </MixxxMIDIPreset>
