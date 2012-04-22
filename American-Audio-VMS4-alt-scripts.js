@@ -40,6 +40,20 @@ VMS4.jogLsb = function( channel, control, value, status, group )
 }
 
 
+VMS4.beatjump = function( channel, control, value, status, group )
+{
+	var jump_len = { 0x0f: -16.0, 0x10: 16.0, 0x31: -16.0, 0x32: 16.0 };
+	
+	var len = engine.getValue( group, "track_samples" ) / engine.getValue( group, "track_samplerate" ) / 2.0;
+	var bpm = engine.getValue( group, "file_bpm" );
+	var beat_size = 60.0 / bpm / len;
+	
+	var pos = engine.getValue( group, "playposition" ) + beat_size*jump_len[control];
+	
+	engine.setValue( group, "playposition", pos );
+}
+
+
 // Flanger toggle
 VMS4.flangerToggle = function( channel, control, value, status, group )
 {
