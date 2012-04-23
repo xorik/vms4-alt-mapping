@@ -3,6 +3,7 @@ VMS4.msb = {};
 VMS4.jog_prev = {};
 VMS4.vinyl = { 1: false, 2: false };
 VMS4.scratch_timer = { 1: false, 2: false };
+VMS4.track_knob_prev = {};
 
 
 // Pause
@@ -96,4 +97,22 @@ VMS4.flangerToggle = function( channel, control, value, status, group )
 		engine.setValue( group, "flanger", 1 );
 	else
 		engine.setValue( group, "flanger", 0 );
+}
+
+
+VMS4.trackSelect = function( channel, control, value, status, group )
+{
+	// Initialized
+	if( !isNaN(VMS4.track_knob_prev[group]) )
+	{
+		var offset = value - VMS4.track_knob_prev[group];
+		if( offset > 64 )
+			offset -= 128;
+		else if( offset < -64 )
+			offset += 128;
+		
+		engine.setValue( "[Playlist]", "SelectTrackKnob", offset );
+	}
+	
+	VMS4.track_knob_prev[group] = value;
 }
