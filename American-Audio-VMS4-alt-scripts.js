@@ -73,6 +73,14 @@ VMS4.vinylToggle = function( channel, control, value, status, group )
 	var deck = group=="[Channel1]" ? 1 : 2;
 	
 	VMS4.vinyl[deck] = !VMS4.vinyl[deck];
+	
+	// LED
+	var led = { 1: 0x27, 2: 0x49 };
+	
+	if( VMS4.vinyl[deck] )
+		midi.sendShortMsg( 0x90, led[deck], 0x7f );
+	else
+		midi.sendShortMsg( 0x80, led[deck], 0x00 );
 }
 
 
