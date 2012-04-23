@@ -102,6 +102,43 @@
 					<Script-Binding/>
 				</options>
 			</control>
+			<!-- pitch lock/unlock -->
+			<control>
+				<group>[Channel1]</group>
+				<key>VMS4.pitchLock</key>
+				<status>0x90</status>
+				<midino>0x51</midino>
+				<options>
+					<Script-Binding/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>VMS4.pitchLock</key>
+				<status>0x80</status>
+				<midino>0x51</midino>
+				<options>
+					<Script-Binding/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>VMS4.pitchLock</key>
+				<status>0x90</status>
+				<midino>0x52</midino>
+				<options>
+					<Script-Binding/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>VMS4.pitchLock</key>
+				<status>0x80</status>
+				<midino>0x52</midino>
+				<options>
+					<Script-Binding/>
+				</options>
+			</control>
 			<!-- eq -->
 			<control>
 				<group>[Channel1]</group>

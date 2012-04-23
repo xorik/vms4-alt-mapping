@@ -4,6 +4,7 @@ VMS4.jog_prev = {};
 VMS4.vinyl = { 1: false, 2: false };
 VMS4.scratch_timer = { 1: false, 2: false };
 VMS4.track_knob_prev = {};
+VMS4.pitch_lock = {};
 
 
 // Pause
@@ -118,9 +119,26 @@ VMS4.trackSelect = function( channel, control, value, status, group )
 }
 
 
+// Lock pitch in center position
+VMS4.pitchLock = function( channel, control, value, status, group )
+{
+	if( status == 0x90 )
+	{
+		engine.setValue( group, "rate", 0.0 );
+		VMS4.pitch_lock[group] = true;
+	}
+	else
+		VMS4.pitch_lock[group] = false;
+}
+
+
 // pitch control
 VMS4.pitch = function( channel, control, value, status, group )
 {
+	// Locked on 0
+	if( VMS4.pitch_lock[group] )
+		return;
+	
 	var value = (value << 7) | control;
 	var rate = (8192-value) / 8191.0;
 	
