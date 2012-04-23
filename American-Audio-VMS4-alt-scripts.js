@@ -30,7 +30,7 @@ VMS4.jogLsb = function( channel, control, value, status, group )
 	
 	// Enable scratch
 	if( VMS4.vinyl[deck] && !VMS4.scratch_timer[deck] )
-		engine.scratchEnable( deck, 2000, 45, 1.0/8, 1.0/8/32 );
+		engine.scratchEnable( deck, 1500, 45, 1.0/8, 1.0/8/32 );
 	// Reset timer
 	if( VMS4.vinyl[deck] )
 	{
