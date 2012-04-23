@@ -116,3 +116,13 @@ VMS4.trackSelect = function( channel, control, value, status, group )
 	
 	VMS4.track_knob_prev[group] = value;
 }
+
+
+// pitch control
+VMS4.pitch = function( channel, control, value, status, group )
+{
+	var value = (value << 7) | control;
+	var rate = (8192-value) / 8191.0;
+	
+	engine.setValue( group, "rate", rate );
+}
