@@ -7,6 +7,13 @@ VMS4.track_knob_prev = {};
 VMS4.pitch_lock = {};
 
 
+// Extinguish all LEDs
+VMS4.shutdown = function ()
+{
+	for (i=12; i<=77; i++)
+		midi.sendShortMsg( 0x80, i, 0x00 );
+}
+
 // Pause
 VMS4.pause = function( channel, control, value, status, group )
 {
