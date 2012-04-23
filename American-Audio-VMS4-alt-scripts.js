@@ -43,9 +43,9 @@ VMS4.jogLsb = function( channel, control, value, status, group )
 	if( !isNaN(VMS4.jog_prev[group]) )
 	{
 		var offset = pos - VMS4.jog_prev[group];
-		if(offset > 8192)
+		if( offset > 8192 )
 			offset -= 16384;
-		else if(offset < -8192)
+		else if( offset < -8192 )
 			offset += + 16384;
 		
 		if( VMS4.scratch_timer[deck] )
@@ -73,7 +73,6 @@ VMS4.vinylToggle = function( channel, control, value, status, group )
 	var deck = group=="[Channel1]" ? 1 : 2;
 	
 	VMS4.vinyl[deck] = !VMS4.vinyl[deck];
-	print( VMS4.vinyl[deck] );
 }
 
 
