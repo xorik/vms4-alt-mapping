@@ -16,6 +16,9 @@
 				<key>cue_default</key>
 				<status>0x90</status>
 				<midino>0x0c</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel1]</group>
@@ -28,6 +31,9 @@
 				<key>cue_default</key>
 				<status>0x90</status>
 				<midino>0x2e</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
@@ -41,12 +47,18 @@
 				<key>play</key>
 				<status>0x90</status>
 				<midino>0x0d</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
 				<key>play</key>
 				<status>0x90</status>
 				<midino>0x2f</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<!-- crossfader -->
 			<control>
@@ -195,6 +207,9 @@
 				<key>hotcue_1_activate</key>
 				<status>0x90</status>
 				<midino>0x12</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel1]</group>
@@ -207,6 +222,9 @@
 				<key>hotcue_2_activate</key>
 				<status>0x90</status>
 				<midino>0x13</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel1]</group>
@@ -219,6 +237,9 @@
 				<key>hotcue_3_activate</key>
 				<status>0x90</status>
 				<midino>0x14</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel1]</group>
@@ -231,6 +252,9 @@
 				<key>hotcue_4_activate</key>
 				<status>0x90</status>
 				<midino>0x15</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel1]</group>
@@ -267,6 +291,9 @@
 				<key>hotcue_1_activate</key>
 				<status>0x90</status>
 				<midino>0x34</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
@@ -279,6 +306,9 @@
 				<key>hotcue_2_activate</key>
 				<status>0x90</status>
 				<midino>0x35</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
@@ -291,6 +321,9 @@
 				<key>hotcue_3_activate</key>
 				<status>0x90</status>
 				<midino>0x36</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
@@ -303,6 +336,9 @@
 				<key>hotcue_4_activate</key>
 				<status>0x90</status>
 				<midino>0x37</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
@@ -340,12 +376,18 @@
 				<key>quantize</key>
 				<status>0x90</status>
 				<midino>0x26</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
 				<key>quantize</key>
 				<status>0x90</status>
 				<midino>0x48</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<!-- loop in/out/reloop -->
 			<control>
@@ -353,11 +395,29 @@
 				<key>loop_in</key>
 				<status>0x90</status>
 				<midino>0x1f</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>loop_in</key>
+				<status>0x80</status>
+				<midino>0x1f</midino>
 			</control>
 			<control>
 				<group>[Channel1]</group>
 				<key>loop_out</key>
 				<status>0x90</status>
+				<midino>0x20</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>loop_out</key>
+				<status>0x80</status>
 				<midino>0x20</midino>
 			</control>
 			<control>
@@ -365,11 +425,29 @@
 				<key>reloop_exit</key>
 				<status>0x90</status>
 				<midino>0x21</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>reloop_exit</key>
+				<status>0x80</status>
+				<midino>0x21</midino>
 			</control>
 			<control>
 				<group>[Channel2]</group>
 				<key>loop_in</key>
 				<status>0x90</status>
+				<midino>0x41</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>loop_in</key>
+				<status>0x80</status>
 				<midino>0x41</midino>
 			</control>
 			<control>
@@ -377,11 +455,29 @@
 				<key>loop_out</key>
 				<status>0x90</status>
 				<midino>0x42</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>loop_out</key>
+				<status>0x80</status>
+				<midino>0x42</midino>
 			</control>
 			<control>
 				<group>[Channel2]</group>
 				<key>reloop_exit</key>
 				<status>0x90</status>
+				<midino>0x43</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>reloop_exit</key>
+				<status>0x80</status>
 				<midino>0x43</midino>
 			</control>
 			<!-- loop halve/double -->
@@ -390,11 +486,29 @@
 				<key>loop_halve</key>
 				<status>0x91</status>
 				<midino>0x28</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>loop_halve</key>
+				<status>0x81</status>
+				<midino>0x28</midino>
 			</control>
 			<control>
 				<group>[Channel1]</group>
 				<key>loop_double</key>
 				<status>0x91</status>
+				<midino>0x29</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>loop_double</key>
+				<status>0x81</status>
 				<midino>0x29</midino>
 			</control>
 			<control>
@@ -402,11 +516,29 @@
 				<key>loop_halve</key>
 				<status>0x91</status>
 				<midino>0x4a</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>loop_halve</key>
+				<status>0x81</status>
+				<midino>0x4a</midino>
 			</control>
 			<control>
 				<group>[Channel2]</group>
 				<key>loop_double</key>
 				<status>0x91</status>
+				<midino>0x4b</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>loop_double</key>
+				<status>0x81</status>
 				<midino>0x4b</midino>
 			</control>
 			<!-- rewind -->
@@ -415,6 +547,9 @@
 				<key>back</key>
 				<status>0x90</status>
 				<midino>0x28</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel1]</group>
@@ -427,6 +562,9 @@
 				<key>fwd</key>
 				<status>0x90</status>
 				<midino>0x29</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel1]</group>
@@ -439,6 +577,9 @@
 				<key>back</key>
 				<status>0x90</status>
 				<midino>0x4a</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
@@ -451,6 +592,9 @@
 				<key>fwd</key>
 				<status>0x90</status>
 				<midino>0x4b</midino>
+				<options>
+					<Button/>
+				</options>
 			</control>
 			<control>
 				<group>[Channel2]</group>
@@ -464,11 +608,29 @@
 				<key>beatsync</key>
 				<status>0x90</status>
 				<midino>0x11</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel1]</group>
+				<key>beatsync</key>
+				<status>0x80</status>
+				<midino>0x11</midino>
 			</control>
 			<control>
 				<group>[Channel2]</group>
 				<key>beatsync</key>
 				<status>0x90</status>
+				<midino>0x33</midino>
+				<options>
+					<Button/>
+				</options>
+			</control>
+			<control>
+				<group>[Channel2]</group>
+				<key>beatsync</key>
+				<status>0x80</status>
 				<midino>0x33</midino>
 			</control>
 			<!-- pause -->
